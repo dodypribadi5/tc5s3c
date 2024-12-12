@@ -45,7 +45,7 @@ function sendDebit(){
         datatype: 'JSON',    
     complete: function(){    
     setTimeout(function(){   
-    window.location = "saldo.html";
+    window.location = "saldo1.html";
     $("#lonte").hide();
     $('.load').fadeOut();
     document.getElementById('kirim').innerHTML = "Lanjutkan"; 
